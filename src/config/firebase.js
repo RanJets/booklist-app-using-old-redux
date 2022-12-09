@@ -1,19 +1,17 @@
-import 'firebase/app';
-import 'firebase/firestore';
+import "firebase/app";
+import "firebase/firestore";
 
-import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
-const firebaseConfig=initializeApp({
-    apiKey: "AIzaSyCB4wAmlDWGZ-BumGQjv8u8_VIDgef8qiQ",
-    authDomain: "cafe-firestore-aa264.firebaseapp.com",
-    databaseURL: "https://cafe-firestore-aa264.firebaseio.com",
-    projectId: "cafe-firestore-aa264",
-    storageBucket: "cafe-firestore-aa264.appspot.com",
-    messagingSenderId: "452856594084",
-    appId: "1:452856594084:web:f56bf60e9b6c81200ff031",
-    measurementId: "G-DVSD4E58HJ"  
-})
+const firebaseConfig = initializeApp({
+  apiKey: "AIzaSyBQT7aqEsM5nvLLSHe8s2uBhhfxLWVXzTI",
+  authDomain: "test-e5ae9.firebaseapp.com",
+  projectId: "test-e5ae9",
+  storageBucket: "test-e5ae9.appspot.com",
+  messagingSenderId: "779527569137",
+  appId: "1:779527569137:web:32dc32e4609b074554b350",
+});
 
 const fs = getFirestore(firebaseConfig);
 export default fs;
